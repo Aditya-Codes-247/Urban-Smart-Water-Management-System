@@ -93,8 +93,8 @@ export default function WaterQualityPage({ params }: { params: { role: string } 
           <CardContent>
             <div className="text-2xl font-bold">0.8 NTU</div>
             <div className="flex items-center text-xs text-muted-foreground">
-              <span className="text-green-500 font-medium mr-1">Excellent</span>\
-              <span>(Threshold: < 5.0)</span>
+              <span className="text-green-500 font-medium mr-1">Excellent</span>
+              <span>(Threshold: &lt; 5.0)</span>
             </div>
           </CardContent>
         </Card>
@@ -134,9 +134,6 @@ export default function WaterQualityPage({ params }: { params: { role: string } 
         </TabsList>
         
         <TabsContent value="trends" className="mt-4">
-          <Card>
-            <CardHeader>
-              <CardTitle>Water Quality  className="mt-4">
           <Card>
             <CardHeader>
               <CardTitle>Water Quality Trends</CardTitle>
